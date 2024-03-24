@@ -7,7 +7,7 @@ if(gender !=="male" && gender !=="female"){
 
 let age = prompt("Please enter your age");
 
-
+// muhammad flifle
 
 if(age <= 0  ){
     alert("Invalid input. age should be greater than zero");
