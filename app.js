@@ -9,7 +9,6 @@ let age = prompt("Please enter your age");
 
 
 
-
 if(age <= 0  ){
     alert("Invalid input. age should be greater than zero");
     
