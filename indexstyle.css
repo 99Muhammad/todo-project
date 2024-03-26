@@ -1,0 +1,86 @@
+header{
+    background-color: #aaaaaa6c;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+header .logo{
+    display: flex;
+
+}
+header .logo h1{
+   
+    height: 30px;
+  
+    margin:  19px 0 0 10px;
+   color: orange;
+}
+header .logo img{
+    width: 60px;
+    height: 60px;
+
+} 
+header ul{
+    display: flex;
+    list-style: none;
+    color: #fff;
+    
+}
+header ul li{
+    margin-left: 30px;
+    margin-right: 30px;
+  
+
+}
+header ul li a{
+    text-decoration: none;
+    color:orange;
+    font-size: 20px;
+    font-weight: bold;
+
+    
+}
+main {
+   
+    margin:20px auto;
+    font-size: 20px;
+    height: 488.200px;
+
+
+}
+table, td, th{
+   border: 1px solid;
+   padding: 20px;
+   margin: auto;
+   
+}
+
+main table thead{
+   background-color: orange;
+}
+main table{
+   border-collapse: collapse;
+   text-align: center;
+   
+}
+main table tbody{
+   font-weight:500 ;
+}
+
+
+footer{
+   margin-top: 106px;
+   background-color: red;
+   bottom: 0;
+   height: 45px;
+   border-radius:0 0 15px 15px  ;
+   color: #fff;
+   text-align: center;
+   line-height: 45px;
+   font-weight: bold;
+    width: 1000px;
+    margin: auto;
+
+}
