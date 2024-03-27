@@ -1,0 +1,147 @@
+header{
+    background-color: #aaaaaa6c;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+header .logo{
+    display: flex;
+
+}
+header .logo h1{
+   
+    height: 30px;
+  
+    margin:  19px 0 0 10px;
+   color: orange;
+}
+header .logo img{
+    width: 60px;
+    height: 60px;
+
+} 
+header ul{
+    display: flex;
+    list-style: none;
+    color: #fff;
+    
+}
+header ul li{
+    margin-left: 30px;
+    margin-right: 30px;
+  
+
+}
+header ul li a{
+    text-decoration: none;
+    color:orange;
+    font-size: 20px;
+    font-weight: bold;
+
+    
+}
+
+
+
+header ul li:hover{
+    color: orange;
+    text-shadow: 1px 1px 2px white;
+}
+main{
+    font-size: 20px;
+    padding: 10px;
+    width: 1000px;
+    margin: auto;
+}
+main .about-me{
+    text-align: center;
+    padding: 10px;
+    font-family: serif;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+main .about-me img{
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+}
+main .about-me p{
+    padding-bottom: 10px;
+    font-weight: bold;
+    width: fit-content;
+    width: 250px;
+
+}
+main .about-me .me{
+    margin-top: 10px;
+    
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+main .froms img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    
+
+}   
+main .froms{
+    
+    text-align: center;
+    
+}
+main .froms p{
+    padding-bottom: 20px;
+}
+main .froms form{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 10px;
+}
+main .froms button{
+    width: 100px;
+    height: 40px;
+    display: block;
+    margin: 10px auto;
+    background-color: orange;
+    outline: none;
+    border: none;
+    transition-duration: 0.3s;
+    cursor: pointer;
+
+}
+main .froms button:hover{
+    box-shadow: 0px 0px 3px 3px #fff;
+
+    
+    
+
+}
+
+
+
+
+
+
+
+
+footer{
+    margin-top: 106px;
+    background-color: red;
+    bottom: 0;
+    height: 45px;
+    border-radius:0 0 15px 15px  ;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    font-weight: bold;
+     width: 1000px;
+     margin: auto;
+ 
+ }

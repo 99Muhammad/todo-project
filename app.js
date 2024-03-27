@@ -24,5 +24,8 @@ if(message){
     }else {
         alert ("Welcome Message"  )
     }
+    /*
+    java script 
+    */
 }
 
