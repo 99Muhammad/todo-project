@@ -29,3 +29,32 @@ if(message){
     */
 }
 
+let arr=[];
+function question(arr)
+{
+    let student =prompt("Are you marrid ? Yes/No");
+    arr.push(student);
+    let marrid =prompot("Are you student ? Yes/No");
+    arr.push(marrid);
+    let work =prompot("Do you work? Yes/No");
+    arr.push(work);
+
+}
+question(arr);
+function AnswerQuestions(arr)
+{
+    for (let i=0;i<arr.length;i++)
+    {
+        if(arr[i]=="")
+        {
+            arr[i]="Invalid";
+        }
+        if(arr[i]!="Yes"&& arr[i]!="No")
+        {
+            console.log("The answer should be 'Yes OR No' ");
+            arr[i]="Invalid";
+        }
+    }
+    return arr;
+}
+console.log(AnswerQuestions(arr));
