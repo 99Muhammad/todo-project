@@ -41,6 +41,7 @@ function question(arr)
 
 }
 question(arr);
+
 function AnswerQuestions(arr)
 {
     for (let i=0;i<arr.length;i++)
@@ -57,4 +58,13 @@ function AnswerQuestions(arr)
     }
     return arr;
 }
-console.log(AnswerQuestions(arr));
+AnswerQuestions(arr);
+function PrintArrayElements(arr)
+{
+    for(let i=0 ;i<arr.length;i++)
+    {
+        console.log(arr[i]);
+    }
+}
+PrintArrayElements(arr);
+//console.log(AnswerQuestions(arr));
