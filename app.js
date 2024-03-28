@@ -30,19 +30,19 @@ if(message){
 }
 
 let arr=[];
-function question(arr)
+function question()
 {
     let student =prompt("Are you marrid ? Yes/No");
     arr.push(student);
-    let marrid =prompot("Are you student ? Yes/No");
+    let marrid =prompt("Are you student ? Yes/No");
     arr.push(marrid);
-    let work =prompot("Do you work? Yes/No");
+    let work =prompt("Do you work? Yes/No");
     arr.push(work);
 
 }
-question(arr);
+question();
 
-function AnswerQuestions(arr)
+function AnswerQuestions()
 {
     for (let i=0;i<arr.length;i++)
     {
@@ -50,7 +50,7 @@ function AnswerQuestions(arr)
         {
             arr[i]="Invalid";
         }
-        if(arr[i]!="Yes"&& arr[i]!="No")
+        if(arr[i]!="yes"&& arr[i]!="no")
         {
             console.log("The answer should be 'Yes OR No' ");
             arr[i]="Invalid";
@@ -58,13 +58,8 @@ function AnswerQuestions(arr)
     }
     return arr;
 }
-AnswerQuestions(arr);
-function PrintArrayElements(arr)
-{
-    for(let i=0 ;i<arr.length;i++)
-    {
-        console.log(arr[i]);
-    }
-}
-PrintArrayElements(arr);
-//console.log(AnswerQuestions(arr));
+arr=AnswerQuestions();
+
+
+console.log(arr);
+
